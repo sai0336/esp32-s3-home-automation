@@ -1,0 +1,30 @@
+# Arduino build artefacts
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+build/
+**/build/
+.arduino/
+.arduinoIDE/
+
+# Editor, OS, temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Never commit local credentials or environment files
+.env
+.env.*
+!.env.example
+secrets/
+private/
+*.local.ino
+*_private.ino
+**/credentials.h
+**/secrets.h
